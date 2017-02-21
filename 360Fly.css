@@ -1,0 +1,113 @@
+@font-face {
+	font-family: 'scorched';
+	src: url('ScorchedEarthDEMO-KCFonts.otf') format('truetype');
+}
+body {
+	background-color: #D3D3D3;
+}
+#title {
+	text-align: center;
+	font-family: 'scorched', Arial, serif;
+	color: blue;
+	text-shadow: 20px 5px 5px green;
+}
+#menu {
+	height: 10mm;
+	background-color: #01ABCD;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+#menu li{
+	display: inline-flex;
+	padding-left: 10mm;
+	padding-right: 10mm;
+	font-size: 0.8em;
+}
+#menu a {
+		text-decoration: none;
+}
+.marque {
+	color: red;
+}
+.images img{
+	text-align: center;
+	width: 100%;
+}
+@media screen and (min-width: 1199px) {
+	.images img {
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		width: 200mm;
+	}
+	#title {
+		color: red;
+	}
+	#menu {
+		height: 15mm;
+	}
+	#menu li {
+		font-size: 2em;
+	}
+	.marque {
+		color: green;
+	}
+}
+/* 2 eme page */
+.polis {
+	font-size: 1em;
+}
+.presentation {
+	color: blue;
+	text-align: center;
+}
+.presentation_2 {
+	color: blue;
+	text-align: center;
+	text-align: justify;
+	margin-left: 2mm;
+	margin-right: 2mm;
+}
+
+.lienp2 {
+	background-color: yellow;
+	width: 100%;
+	text-align: center;
+	margin-top: 0mm;
+}
+
+@media screen and (min-width: 1199px) {
+	.presentation, .presentation_2 {
+		font-size: 1.2em;
+		margin-left: 20mm;
+		margin-right: 20mm;
+	}
+	.lienp2 {
+		margin-top: 55mm;
+	}
+}
+/* 3 eme page */
+.information {
+	text-align: center;
+	text-align: justify;
+	margin-left: 2mm;
+	margin-right: 2mm;
+	color: red;
+}
+.lienp3 {
+	background-color: yellow;
+	width: 100%;
+	text-align: center;
+	margin-top: 15mm;
+}
+@media screen and (min-width: 1199px){
+	.information {
+		font-size: 1.2em;
+		margin-left: 20mm;
+		margin-right: 20mm;
+	}
+	.lienp3 {
+		margin-top: 95mm;
+	}
+}
