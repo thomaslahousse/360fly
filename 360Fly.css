@@ -4,7 +4,9 @@
 }
 body {
 	background-color: #D3D3D3;
+	background-image: url("logo.png");
 }
+
 #title {
 	text-align: center;
 	font-family: 'scorched', Arial, serif;
@@ -110,4 +112,30 @@ body {
 	.lienp3 {
 		margin-top: 95mm;
 	}
+}
+/* 4 eme page */
+#video {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.video {
+	width: 100%;
+	height: 150mm;
+}
+.lien_video a{
+	color: #ED0000;
+}
+.lien_video:hover a{
+	color: green;
+}
+#e_penser {
+	text-align: right;
+}
+.lienp4 {
+	background-color: yellow;
+	width: 100%;
+	text-align: center;
+	margin-top: 0mm;
 }
